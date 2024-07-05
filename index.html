@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!--ADVANCED TASKS:
+- Can you create a form (with data validation - ask someone what this means) to receive contact inquiries?
+- Can you add a section for a blog with several articles?
+- Can you implement a FAQ section on the page?
+- (USING JS) Can you change the text of a paragraph after form submission?
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <!-- UPDATE THIS -->
+            <p>Sou o Rafael sou uma beca viciado, jogo há cerca de uma decada e faço speedruns de Portal, passo levels dificeis no Geometry Dash e de vez em quando faço lives.</p>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <!-- UPDATE THIS -->
+            <ul>
+                <li>Jogo jogos no pc</li><br>
+                <li>Ir ao rio mesmo no inverno</li><br>
+                <li>Estar em chamada com amigos ou jogar com eles</li>
+              </ul>
+        </section>
+        <section id="FAQ">
+            <h1>FAQ</h1>
+            <h2>Qual foi o level mais dificil que passaste?</h2>
+            <p>Foi o Bloodbath, demorei 21028 tentativas e 1 mês e meio.</p>
+            <p>Se clicarem na imagem a baixa leva ao video de eu a passar o level.</p>  
+            <a href="https://www.youtube.com/watch?v=j1y8892l7nc&t=3s"><img src="downloy.jpeg"></a>
+            <h2>Qual é o teu PB no Portal?</h2>
+            <p>17:46 com a marioria dos metodos basicos que neste momento é top 3 Portugal.</p>
+            <h2>Quantas horas tens no Geometry Dash?</h2>
+            <p>Tenho por volta de 700 horas e jogo há cerca de 2 anos.</p>
+            <h2>Há quanto tempo fazes speedrun de Portal?</h2>
+            <p>Faço há 3 dias.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <br />
+                    <input type="text" id="name" placeholder=" " required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br />
+                    <input type="email" id="email" placeholder=" " required>
+                </div>
+                <div>
+                    <label for="Número">Número:</label>
+                    <br />
+                    <input type="Número" id="Número" placeholder=" " required>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+            </section>
+    </main>
+    <footer>
+        <!-- UPDATE THIS -->
+        <p>&copy; Nada aqui</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/*
+
+- Change the background color of the header and footer.
+- Modify the font styles (font-family, font-size) for the headings and paragraphs.
+- (ADVANCED) Add hover effects to the navigation links and buttons.
+- (ADVANCED) Use CSS Grid or Flexbox to create a more complex layout for the gallery and project sections.
+- (ADVANCED) Design a Modern Navigation Bar
+- 
+*/
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    line-height: 1.6;
+    margin: 0;
+    background: #000;
+
+    padding: 0;
+}
+
+header {
+    background: #000;
+    color: #8533d6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #8533d6;
+    text-decoration: none;
+}
+
+form > div > input {
+    background-color: #8533d6;
+    border: 1px solid #000;
+    
+}
+
+input:focus  {
+    border: 3px solid #fff;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #8533d6;
+	color: #000;
+    border: 1px solid #000;
+}
+
+
+    main {
+    background: #000;
+    color: #8533d6;
+    /* text-align: center; */
+    margin: auto;
+    width: 1000px;
+    padding: 100px;
+    ul {
+        list-style: none;
+    }
+
+    ol {
+        list-style: none;
+    }
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #000;
+    color: #8533d6;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
